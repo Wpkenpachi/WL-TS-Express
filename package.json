@@ -4,7 +4,7 @@
   "description": "A whitelabel for projects that will use node, typescript and express",
   "main": "server.ts",
   "scripts": {
-    "start:dev": "ts-node src/server.ts"
+    "start:dev": "./node_modules/.bin/nodemon"
   },
   "repository": {
     "type": "git",
